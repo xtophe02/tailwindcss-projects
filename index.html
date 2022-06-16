@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwindcss Projects</title>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Background container -->
+    <div class="flex items-center justify-center bg-slate-200 h-screen">
+      <!-- Card -->
+      <div class="bg-slate-500 p-2 mx-6 rounded-2xl">
+        <!-- flex container -->
+        <div class="flex flex-col md:flex-row">
+          <!-- image -->
+          <img
+            src="./images/image.jpg"
+            alt="car"
+            class="h-80 object-contain rounded-xl md:h-96 md:rounded-l-xl md:rounded-r-none transform hover:scale-105 hover:rounded-xl duration-200"
+          />
+          <!-- content -->
+          <div class="p-6 md:p-8">
+            <h1
+              class="font-serif text-2xl font-bold text-center text-white md:text-left"
+            >
+              Tailwindcss Projects
+            </h1>
+            <h2
+              class="font-serif text-lg font-medium text-center text-white md:text-left mt-5"
+            >
+              Mini Projects
+            </h2>
+            <ul class="list-inside list-disc text-white">
+              <li>
+                <a
+                  href="email_subscribe/index.html"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Email Subscribe
+                </a>
+              </li>
+              <li>
+                <a
+                  href="image-galery/index.html"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Image Galery
+                </a>
+              </li>
+              <li>
+                <a
+                  href="login-modal/index.html"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Login Modal
+                </a>
+              </li>
+              <li>
+                <a
+                  href="pricing-cards/index.html"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Pricing Cards
+                </a>
+              </li>
+              <li>
+                <a
+                  href="product-modal/index.html"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Product Modal
+                </a>
+              </li>
+            </ul>
+            <h2
+              class="font-serif text-lg font-medium text-center text-white md:text-left mt-5"
+            >
+              Macro Projects
+            </h2>
+            <ul class="list-inside list-disc text-white">
+              <li>
+                <a
+                  href="https://62ab87a2033a9c24b73a7161--aesthetic-alpaca-a0d53a.netlify.app"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Clipboard
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://62ab88a9d68af72714416957--candid-bonbon-9a05eb.netlify.app/"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Loopstudios
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://flourishing-arithmetic-aeb995.netlify.app/"
+                  class="maw-w-xs my-4 text-xs leading-5 tracking-wide text-center text-white md:text-left hover:text-cyan-200"
+                >
+                  Shortly
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
